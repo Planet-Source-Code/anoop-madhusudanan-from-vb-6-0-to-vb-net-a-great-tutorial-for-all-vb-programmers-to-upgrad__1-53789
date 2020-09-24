@@ -1,0 +1,2 @@
+
+for %%i in (*.vb) do vbc %%i /out:"bin\%%i.exe"  /r:"System.Windows.Forms.dll","System.dll"
